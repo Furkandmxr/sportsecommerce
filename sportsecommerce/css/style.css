@@ -1,0 +1,38 @@
+ /* Layout */
+ .layout{
+ display: flex;
+ -webkit-box-align: center;
+ align-items: center;
+ justify-content: right;
+ height: 9vh;
+ gap: 10px;
+ background: rgb(235, 236, 236);
+}
+.btn-layout{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    background-color: black;
+    color: aliceblue;
+    border: 1px;
+}
+
+ 
+ 
+ /* Navbar*/
+ .nav {
+    height: 5rem;
+    padding: 1rem;
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
